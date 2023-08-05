@@ -1,0 +1,2646 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(27, 29, 29);
+    height: 990vh;
+}
+
+/* *****************************************header************************************************ */
+.header {
+    position: fixed;
+    background-color: rgb(27, 29, 29);
+}
+
+.logo {
+    width: 95px;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+
+.dropdown li a {
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    padding: 13px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.list_item {
+    margin-top: 21px;
+}
+
+.header ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.dropdown li a:hover {
+    color: rgb(152, 250, 152);
+}
+
+/* ************************************header_with_sub-menu**************************************** */
+.sub-menu-1 {
+    display: none;
+    background-color: rgb(27, 29, 29);
+    padding-top: 2%;
+    width: 105%;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin-top: 39px;
+    left: 0;
+}
+
+.sub-menu-1 ul li {
+    color: white;
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+
+ul li p {
+    color: grey;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+.dropdown li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+}
+
+.dropdown li:hover .sub-menu-1 ul {
+    display: block;
+}
+
+
+.sub-menu-2 {
+    display: none;
+    background-color: rgb(27, 29, 29);
+    padding-top: 2%;
+    width: 105%;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin-top: 39px;
+    left: 0;
+}
+
+.sub-menu-2 ul li {
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.dropdown li:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+}
+
+.dropdown li:hover .sub-menu-2 ul {
+    display: block;
+    /* margin: 10px; */
+}
+
+
+.sub-menu-3 {
+    display: none;
+    background-color: rgb(27, 29, 29);
+    padding-top: 2%;
+    width: 105%;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin-top: 39px;
+    left: 0;
+}
+
+.sub-menu-3 ul li {
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.dropdown li:hover .sub-menu-3 {
+    display: block;
+    position: absolute;
+}
+
+.dropdown li:hover .sub-menu-3 ul {
+    display: block;
+    /* margin: 10px; */
+}
+
+
+/* ************************************Search-Box**************************************** */
+.header-right-side {
+    display: inline-flex;
+}
+
+.form-submit {
+    margin-left: 470px;
+}
+
+.search-box {
+    border: 3px solid rgb(61, 60, 60);
+    border-radius: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 45px;
+    background-color: rgb(27, 29, 29);
+}
+
+
+input {
+    font-size: 15px;
+    color: grey;
+}
+
+/* .search-btn {
+    background-color: rgb(27, 29, 29);
+    border: 0px solid rgb(43, 42, 42);;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+.login {
+    font-family: sans-serif;
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    border: 0px solid rgb(27, 29, 29);
+    background-color: rgb(27, 29, 29);
+}
+
+.login:hover {
+    cursor: pointer;
+}
+
+.signup {
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(21, 128, 21);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0px solid rgb(27, 29, 29);
+    border-radius: 20px;
+}
+
+.signup:hover {
+    background-color: rgb(10, 164, 10);
+    cursor: pointer;
+}
+
+/* ************************************header-2**************************************** */
+.header2 {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 12px;
+    margin-bottom: 17px;
+    margin-top: 20px;
+}
+
+.header2 ul li a {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+/* ************************************Page-1**************************************** */
+.page1 h1 {
+    width: 60%;
+    color: rgb(53, 175, 53);
+    margin-left: 10%;
+    padding-top: 13%;
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paratext {
+    color: rgb(129, 124, 124);
+    font-size: 21px;
+    margin-left: 10%;
+    padding-top: 7px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(16, 131, 16);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 0px solid rgb(27, 29, 29);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(66, 133, 66);
+    cursor: pointer;
+}
+
+.trusted-text {
+    margin-left: 10%;
+    color: grey;
+    margin-top: 55px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.trusted-comp {
+    margin-left: 10%;
+    margin-top: 13px;
+}
+
+.globeimg {
+    width: 440px;
+    margin-right: 170px;
+    float: right;
+    margin-top: 15%;
+}
+
+
+/* ************************************Page-2**************************************** */
+.page2 img {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+
+/* ************************************Page-3**************************************** */
+.page3 h2 {
+    color: rgb(215, 210, 210);
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.page3-text {
+    color: grey;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+
+.page3-text a {
+    color: rgb(82, 209, 82);
+    font-family: sans-serif;
+}
+
+.page3-text a:hover {
+    color: rgb(77, 180, 77);
+}
+
+.cards {
+    display: inline-flex;
+}
+
+
+.card1 {
+    color: rgb(233, 226, 226);
+    font-size: 20px;
+    background-color: rgb(25, 34, 25);
+    margin-top: 4%;
+    margin-left: 11%;
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-bottom: 50px;
+    width: 315px;
+    border: 4px solid rgb(25, 34, 25);
+    border-radius: 12px;
+}
+
+.card1:hover {
+    background-color: rgb(37, 43, 37);
+    cursor: pointer;
+}
+
+.card1 h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.ratio {
+    margin-top: 12px;
+}
+
+.box1 {
+    color: rgb(149, 148, 148);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card2 {
+    color: rgb(233, 226, 226);
+    font-size: 20px;
+    background-color: rgb(25, 34, 25);
+    margin-top: 4%;
+    margin-left: 1%;
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-bottom: 40px;
+    width: 315px;
+    border: 4px solid rgb(25, 34, 25);
+    border-radius: 12px;
+}
+
+.card2:hover {
+    background-color: rgb(37, 43, 37);
+    cursor: pointer;
+}
+
+.card2 h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.box2 {
+    color: rgb(149, 148, 148);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card3 {
+    color: rgb(233, 226, 226);
+    font-size: 20px;
+    background-color: rgb(25, 34, 25);
+    margin-top: 4%;
+    margin-left: 1%;
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-bottom: 40px;
+    width: 315px;
+    border: 4px solid rgb(25, 34, 25);
+    border-radius: 12px;
+}
+
+.card3:hover {
+    background-color: rgb(37, 43, 37);
+    cursor: pointer;
+}
+
+.card3 h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.box3 {
+    color: rgb(149, 148, 148);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card4 {
+    color: rgb(233, 226, 226);
+    font-size: 20px;
+    background-color: rgb(25, 34, 25);
+    margin-top: 4%;
+    margin-left: 1%;
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-bottom: 40px;
+    width: 315px;
+    border: 4px solid rgb(25, 34, 25);
+    border-radius: 12px;
+}
+
+.card4:hover {
+    background-color: rgb(37, 43, 37);
+    cursor: pointer;
+}
+
+.card4 h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.box4 {
+    color: rgb(149, 148, 148);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.cards-2 {
+    display: inline-flex;
+    margin-left: 9.7%;
+    margin-top: 10px;
+}
+
+.card5 {
+    color: rgb(233, 226, 226);
+    font-size: 20px;
+    background-color: rgb(25, 34, 25);
+    /* margin-left: 1%; */
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-right: 25px;
+    width: 250px;
+    border: 4px solid rgb(25, 34, 25);
+    border-radius: 12px;
+}
+
+.card5:hover {
+    background-color: rgb(37, 43, 37);
+    cursor: pointer;
+}
+
+.card5 h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.box2 {
+    color: rgb(149, 148, 148);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.card6 {
+    color: rgb(233, 226, 226);
+    font-size: 20px;
+    background-color: rgb(25, 34, 25);
+    margin-left: 1%;
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-right: 24px;
+    width: 250px;
+    border: 4px solid rgb(25, 34, 25);
+    border-radius: 12px;
+}
+
+.card6:hover {
+    background-color: rgb(37, 43, 37);
+    cursor: pointer;
+}
+
+.card6 h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.box2 {
+    color: rgb(149, 148, 148);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.card7 {
+    color: rgb(233, 226, 226);
+    font-size: 20px;
+    background-color: rgb(25, 34, 25);
+    margin-left: 1%;
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-right: 12px;
+    width: 270px;
+    border: 4px solid rgb(25, 34, 25);
+    border-radius: 12px;
+}
+
+.card7:hover {
+    background-color: rgb(37, 43, 37);
+    cursor: pointer;
+}
+
+.card7 h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.box2 {
+    color: rgb(149, 148, 148);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+.card8 {
+    color: rgb(233, 226, 226);
+    font-size: 20px;
+    background-color: rgb(25, 34, 25);
+    margin-left: 1%;
+    padding-top: 22px;
+    padding-left: 27px;
+    padding-bottom: 30px;
+    width: 278px;
+    border: 4px solid rgb(25, 34, 25);
+    border-radius: 12px;
+}
+
+.card8:hover {
+    background-color: rgb(37, 43, 37);
+    cursor: pointer;
+}
+
+.card8 h3 {
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.box2 {
+    color: rgb(149, 148, 148);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+/* ************************************Page-4**************************************** */
+.page4 img {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.alltextpg4 {
+    float: right;
+    margin-right: 16%;
+    color: rgb(217, 214, 214);
+}
+
+.pg4head {
+    margin-top: 90px;
+    font-size: 38px;
+    font-family: 'Lora', serif;
+}
+
+
+/* first line */
+.fisrt {
+    display: inline-flex;
+}
+
+.small-head1 {
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.firstpg {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.penimg {
+    width: 22px;
+    padding-top: 45px;
+}
+
+
+/* second line */
+.second {
+    display: flex;
+}
+
+.small-head2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.secondpg {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.pinimg {
+    padding-top: 26px;
+}
+
+
+/* third line */
+.third {
+    display: flex;
+}
+
+.small-head3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.thirdpg {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.slogoimg {
+    padding-top: 25px;
+}
+
+.btn-sign-desc {
+    display: flex;
+    margin-top: 35px;
+}
+
+.signup-btn {
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(14, 130, 14);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 0px solid rgb(27, 29, 29);
+    border-radius: 20px;
+}
+
+.signup-btn:hover {
+    background-color: rgb(42, 138, 42);
+    cursor: pointer;
+}
+
+.description {
+    font-family: sans-serif;
+    color: rgb(85, 233, 85);
+    font-size: 16px;
+    background-color: rgb(27, 29, 29);
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid rgb(31, 182, 31);
+    border-radius: 20px;
+}
+
+.description:hover {
+    background-color: rgb(45, 46, 46);
+    cursor: pointer;
+}
+
+
+/* ************************************Page-5**************************************** */
+.container5 {
+    margin-top: 5%;
+}
+
+.page5-sideimg {
+    float: right;
+    margin-right: 12%;
+    width: 497px;
+}
+
+.page5 {
+    background-color: rgba(13, 67, 55, 0.843);
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 39%;
+    height: 72vh;
+    border-radius: 10px;
+}
+
+.firstheading {
+    color: rgb(214, 214, 214);
+    font-size: 27px;
+    padding-top: 6px;
+    margin-left: 62px;
+}
+
+.secondheading {
+    font-size: 58px;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+.shfirstdiv {
+    color: white;
+    margin-left: 30px;
+}
+
+.shseconddiv {
+    color: rgb(71, 221, 171);
+    margin-left: 30px;
+}
+
+.textofpg5 {
+    color: white;
+    margin-top: 25px;
+    font-size: 17px;
+    font-family: 'Lora', serif;
+    margin-left: 62px;
+}
+
+
+/* icon1 */
+.icon1-div {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.icon1-img {
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+.icon1-text {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+
+/* icon2 */
+.icon2-div {
+    display: flex;
+    margin-left: 30px;
+}
+
+.icon2-img {
+    margin-left: 30px;
+    margin-top: 11px;
+}
+
+.icon2-text {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+
+
+/* icon3 */
+.icon3-div {
+    display: flex;
+    margin-left: 30px;
+}
+
+.icon3-img {
+    margin-left: 30px;
+    margin-top: 11px;
+}
+
+.icon3-text {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+
+.learnmore {
+    margin-left: 7%;
+    margin-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(27, 29, 29);
+    color: rgba(51, 158, 135, 0.843);
+    font-size: 17px;
+    font-family: sans-serif;
+    border-radius: 30px;
+    border: 0px solid rgb(27, 29, 29);
+}
+
+.learnmore:hover {
+    background-color: rgb(34, 38, 38);
+    cursor: pointer;
+}
+
+
+/* ************************************Page-6**************************************** */
+.for-clients {
+    background-image: url(./images/page6.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 78%;
+    height: 78vh;
+    margin-left: 10%;
+    margin-top: 3%;
+    /* border: 3px solid grey; */
+    border-radius: 17px;
+}
+
+.pagesixtext {
+    position: static;
+    margin-left: 3%;
+}
+
+.page6-ftext {
+    color: white;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+.page6stext {
+    color: white;
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: 'Lora', serif;
+}
+
+.para-6 {
+    color: rgb(253, 251, 251);
+    margin-top: 3%;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+}
+
+/* boxes */
+.threeboxes {
+    display: inline-flex;
+    height: 25vh;
+}
+
+.onebox {
+    background-color: rgb(4, 96, 4);
+    color: white;
+    padding-left: 23px;
+    padding-right: 15%;
+    padding-top: 20px;
+    margin-top: 40px;
+    border: 0px solid rgb(12, 13, 12);
+    border-radius: 12px;
+}
+
+.onebox:hover {
+    background-color: rgb(41, 43, 43);
+    color: green;
+    cursor: pointer;
+}
+
+.oneboxhead {
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    width: 159px;
+}
+
+.oneboxtext {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    margin-top: 19px;
+    width: 217px;
+}
+
+.twobox {
+    background-color: rgb(4, 96, 4);
+    color: white;
+    padding-left: 23px;
+    padding-right: 15%;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 0px solid rgb(12, 13, 12);
+    border-radius: 12px;
+}
+
+.twobox:hover {
+    background-color: rgb(41, 43, 43);
+    color: green;
+    cursor: pointer;
+}
+
+.twoboxhead {
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    width: 159px;
+}
+
+.twoboxtext {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    margin-top: 19px;
+    width: 215px;
+}
+
+
+.threebox {
+    background-color: rgb(4, 96, 4);
+    color: white;
+    padding-left: 23px;
+    padding-right: 12%;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 0px solid rgb(12, 13, 12);
+    border-radius: 12px;
+}
+
+.threebox:hover {
+    background-color: rgb(41, 43, 43);
+    color: green;
+    cursor: pointer;
+}
+
+.threeboxhead {
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    width: 250px;
+}
+
+.threeboxtext {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    margin-top: 19px;
+    width: 215px;
+}
+
+
+/* ************************************Page-7**************************************** */
+.container7 {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.page7 {
+    width: 87%;
+    border-radius: 9px;
+}
+
+
+/* ************************************Page-8**************************************** */
+.container8 {
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+
+.fullpage8 {
+    display: flex;
+}
+
+.page8img {
+    width: 44%;
+}
+
+.page8text {
+    background-color: rgb(53, 57, 198);
+    height: 70vh;
+    padding-top: 28px;
+    padding-bottom: 7%;
+    padding-left: 25px;
+    margin-top: 5px;
+    /* border: 3px solid black; */
+}
+
+.page8headOne {
+    color: rgb(226, 226, 226);
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.page8headTwo {
+    color: rgb(226, 226, 226);
+    font-family: 'Lora', serif;
+    margin-top: 33px;
+    font-size: 60px;
+}
+
+.page8para {
+    color: rgb(226, 226, 226);
+    font-family: sans-serif;
+    margin-top: 28px;
+    font-size: 20px;
+}
+
+.findopportunities {
+    display: flex;
+    color: rgb(226, 226, 226);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.no1 {
+    width: 232px;
+}
+
+.no2 {
+    width: 205px;
+}
+
+.no3 {
+    width: 155px;
+}
+
+.findopportunities-btn {
+    margin-top: 33px;
+    color: rgb(56, 161, 218);
+    background-color: rgb(27, 29, 29);
+    border: 0px solid rgb(12, 13, 12);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.findopportunities-btn:hover {
+    background-color: rgb(41, 41, 41);
+    cursor: pointer;
+}
+
+
+/* ************************************Page-9**************************************** */
+.page9img {
+    width: 78.5%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+
+/* ************************************Page-10**************************************** */
+.container10 {
+    margin-left: 10%;
+    background-color: rgb(25, 34, 25);
+    width: 78.5%;
+    margin-top: 5%;
+    height: 25vh;
+    border-radius: 25px;
+}
+
+.page10img {
+    float: right;
+    margin-top: 17px;
+    margin-right: 25px;
+}
+
+.page10head {
+    color: rgb(219, 216, 216);
+    padding-top: 25px;
+    padding-left: 27px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+
+.page10para {
+    color: grey;
+    padding-left: 27px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.Learnmorebtn {
+    font-family: sans-serif;
+    color: rgb(85, 233, 85);
+    font-size: 14px;
+    background-color: rgb(41, 42, 42);
+    margin-left: 28px;
+    margin-top: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid rgb(31, 182, 31);
+    border-radius: 20px;
+}
+
+.Learnmorebtn:hover {
+    background-color: rgb(25, 34, 25);
+    cursor: pointer;
+}
+
+
+/* ************************************footer second last**************************************** */
+.footer-sl {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.row1 {
+    color: white;
+    font-size: 37px;
+    font-family: sans-serif;
+    margin-top: 14px;
+}
+
+.firstrowofthesl li {
+    list-style-type: none;
+    padding-top: 8px;
+}
+
+.firstrowofthesl li:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.anotherrows {
+    color: rgb(112, 110, 110);
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-left: 3%;
+}
+
+.footer-sl-data td:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.tdata {
+    padding-top: 17px;
+    padding-left: 150px;
+}
+
+
+/* ************************************last footer**************************************** */
+.footer {
+    background-color: rgb(5, 24, 5);
+    margin-top: 5%;
+    margin-left: 6%;
+    width: 88%;
+    height: 85vh;
+    color: white;
+}
+
+.lastfooter {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.lastfootertable {
+    padding-top: 8%;
+    width: 100%;
+    font-size: 13px;
+}
+
+/* .thead {
+
+} */
+
+.lastfooter-tdata {
+    padding-top: 9px;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+.lastfooter-tdata:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    margin-top: 10%;
+}
+
+.FollowUs {
+    margin-left: 36px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 7px;
+}
+
+.FollowUs i {
+    font-size: 20px;
+}
+
+.FollowUs i:hover {
+    color: grey;
+}
+
+.Mobileapp {
+    margin-left: 65%;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.Mobileapp i {
+    font-size: 20px;
+}
+
+.Mobileapp i:hover {
+    color: grey;
+}
+
+.footer-list {
+    display: flex;
+    margin-top: 15px;
+}
+
+.listoffooter {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 22px;
+}
+
+.listoffooter:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lastlist {
+    margin-left: 20px;
+}
+
+.footerpara {
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+@media only screen and (max-width: 750px) {
+
+    body {
+        background-color: rgb(27, 29, 29);
+        height: 590vh;
+    }
+
+    .header {
+        position: fixed;
+        background-color: rgb(27, 29, 29);
+    }
+
+    .logo {
+        width: 50px;
+        margin-left: 18px;
+        margin-top: 14px;
+    }
+
+    .dropdown li a {
+        color: white;
+        text-align: center;
+        margin-left: 6px;
+        padding: 5px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+
+    .list_item {
+        margin-top: 15px;
+    }
+
+    .header ul {
+        display: inline-flex;
+        list-style: none;
+    }
+
+    .dropdown li a:hover {
+        color: rgb(152, 250, 152);
+    }
+
+
+    /* ************************************Search-Box**************************************** */
+    .header-right-side {
+        display: inline-flex;
+    }
+
+    .form-submit {
+        margin-left: 47px;
+    }
+
+    .search-box {
+        border: 3px solid rgb(61, 60, 60);
+        border-radius: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 12px;
+        padding-right: 30px;
+        background-color: rgb(27, 29, 29);
+    }
+
+
+    input {
+        font-size: 10px;
+        color: grey;
+    }
+
+    .login {
+        font-family: sans-serif;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 12px;
+        border: 0px solid rgb(27, 29, 29);
+        background-color: rgb(27, 29, 29);
+    }
+
+    .login:hover {
+        cursor: pointer;
+    }
+
+    .signup {
+        font-family: sans-serif;
+        color: white;
+        font-size: 12px;
+        background-color: rgb(21, 128, 21);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 0px solid rgb(27, 29, 29);
+        border-radius: 20px;
+    }
+
+    .signup:hover {
+        background-color: rgb(10, 164, 10);
+        cursor: pointer;
+    }
+
+
+
+    /* ************************************header-2**************************************** */
+    .header2 {
+        display: inline-flex;
+        list-style: none;
+        margin-left: 6px;
+        margin-bottom: 13px;
+        margin-top: 17px;
+    }
+
+    .header2 ul li a {
+        color: white;
+        font-family: sans-serif;
+        font-size: 10px;
+        text-align: center;
+        margin-left: 10px;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+
+
+    /* ************************************header_with_sub-menu**************************************** */
+    .sub-menu-1 {
+        display: none;
+        background-color: rgb(27, 29, 29);
+        padding-top: 2%;
+        width: 100%;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        margin-top: 30px;
+        left: 0;
+    }
+
+    .sub-menu-1 ul li {
+        color: white;
+        font-family: sans-serif;
+        font-size: 10px;
+        padding-top: 20px;
+    }
+
+    ul li p {
+        color: grey;
+        margin-top: 7px;
+        font-family: sans-serif;
+    }
+
+    .dropdown li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+    }
+
+    .dropdown li:hover .sub-menu-1 ul {
+        display: block;
+    }
+
+
+    .sub-menu-2 {
+        display: none;
+        background-color: rgb(27, 29, 29);
+        padding-top: 2%;
+        width: 100%;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        margin-top: 30px;
+        left: 0;
+    }
+
+    .sub-menu-2 ul li {
+        color: white;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+
+    .dropdown li:hover .sub-menu-2 {
+        display: block;
+        position: absolute;
+    }
+
+    .dropdown li:hover .sub-menu-2 ul {
+        display: block;
+    }
+
+
+    .sub-menu-3 {
+        display: none;
+        background-color: rgb(27, 29, 29);
+        padding-top: 2%;
+        width: 100%;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        margin-top: 30px;
+        left: 0;
+    }
+
+    .sub-menu-3 ul li {
+        color: white;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+
+    .dropdown li:hover .sub-menu-3 {
+        display: block;
+        position: absolute;
+    }
+
+    .dropdown li:hover .sub-menu-3 ul {
+        display: block;
+    }
+
+
+    /* ************************************Page-1**************************************** */
+    .page1 h1 {
+        width: 50%;
+        color: rgb(53, 175, 53);
+        margin-left: 5%;
+        padding-top: 18%;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .paratext {
+        color: rgb(129, 124, 124);
+        font-size: 15px;
+        margin-left: 5%;
+        padding-top: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .btn {
+        font-family: sans-serif;
+        color: white;
+        font-size: 10px;
+        background-color: rgb(16, 131, 16);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 0px solid rgb(27, 29, 29);
+        border-radius: 20px;
+        margin-left: 5%;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background-color: rgb(66, 133, 66);
+        cursor: pointer;
+    }
+
+    .trusted-text {
+        margin-left: 5%;
+        color: grey;
+        margin-top: 20px;
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+
+    .trusted-comp {
+        margin-left: 5%;
+        margin-top: 5px;
+        width: 165px;
+    }
+
+    .globeimg {
+        width: 280px;
+        margin-right: 70px;
+        float: right;
+        margin-top: 18%;
+    }
+
+
+    /* ************************************Page-2**************************************** */
+    .page2 img {
+        width: 86%;
+        margin-top: 4%;
+        margin-left: 5%;
+    }
+
+
+
+    /* ************************************Page-3**************************************** */
+    .page3 h2 {
+        color: rgb(215, 210, 210);
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+    .page3-text {
+        color: grey;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-left: 5%;
+        font-family: sans-serif;
+    }
+
+    .page3-text a {
+        color: rgb(82, 209, 82);
+        font-family: sans-serif;
+    }
+
+    .page3-text a:hover {
+        color: rgb(77, 180, 77);
+    }
+
+    .mediaclass {
+        display: flex;
+        margin-left: 4%;
+        margin-top: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card1 {
+        color: rgb(233, 226, 226);
+        font-size: 10px;
+        background-color: rgb(25, 34, 25);
+        margin-top: 2%;
+        margin-left: 2.5%;
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-bottom: 19px;
+        padding-right: 161px;
+        width: 150px;
+        height: 5vh;
+        border: 4px solid rgb(25, 34, 25);
+        border-radius: 10px;
+    }
+
+    .card1:hover {
+        background-color: rgb(37, 43, 37);
+        cursor: pointer;
+    }
+
+    .card1 h3 {
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .ratio {
+        margin-top: 6px;
+    }
+
+    .box1 {
+        color: rgb(149, 148, 148);
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    .card2 {
+        color: rgb(233, 226, 226);
+        font-size: 10px;
+        background-color: rgb(25, 34, 25);
+        margin-top: 2%;
+        margin-left: 2.5%;
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-bottom: 19px;
+        padding-right: 161px;
+        width: 150px;
+        height: 5vh;
+        border: 4px solid rgb(25, 34, 25);
+        border-radius: 10px;
+    }
+
+    .card2:hover {
+        background-color: rgb(37, 43, 37);
+        cursor: pointer;
+    }
+
+    .card2 h3 {
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .box2 {
+        color: rgb(149, 148, 148);
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    .card3 {
+        color: rgb(233, 226, 226);
+        font-size: 10px;
+        background-color: rgb(25, 34, 25);
+        margin-top: 2%;
+        margin-left: 2.5%;
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-bottom: 19px;
+        padding-right: 161px;
+        width: 150px;
+        height: 5vh;
+        border: 4px solid rgb(25, 34, 25);
+        border-radius: 10px;
+    }
+
+    .card3:hover {
+        background-color: rgb(37, 43, 37);
+        cursor: pointer;
+    }
+
+    .card3 h3 {
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .box3 {
+        color: rgb(149, 148, 148);
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    .card4 {
+        color: rgb(233, 226, 226);
+        font-size: 10px;
+        background-color: rgb(25, 34, 25);
+        margin-top: 2%;
+        margin-left: 2.5%;
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        padding-right: 161px;
+        width: 150px;
+        height: 5vh;
+        border: 4px solid rgb(25, 34, 25);
+        border-radius: 10px;
+    }
+
+    .card4:hover {
+        background-color: rgb(37, 43, 37);
+        cursor: pointer;
+    }
+
+    .card4 h3 {
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .box4 {
+        color: rgb(149, 148, 148);
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+
+    .cards-2 {
+        flex-direction: column;
+    }
+
+    .card5 {
+        color: rgb(233, 226, 226);
+        font-size: 10px;
+        background-color: rgb(25, 34, 25);
+        margin-top: -1.5%;
+        margin-left: -15%;
+        padding-top: 13px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        padding-right: 161px;
+        width: 150px;
+        height: 5vh;
+        border: 4px solid rgb(25, 34, 25);
+        border-radius: 10px;
+    }
+
+    .card5:hover {
+        background-color: rgb(37, 43, 37);
+        cursor: pointer;
+    }
+
+    .card5 h3 {
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .box5 {
+        color: rgb(149, 148, 148);
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    .card6 {
+        color: rgb(233, 226, 226);
+        font-size: 10px;
+        background-color: rgb(25, 34, 25);
+        margin-top: 2%;
+        margin-left: -15%;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        padding-right: 161px;
+        width: 152px;
+        height: 5.5vh;
+        border: 4px solid rgb(25, 34, 25);
+        border-radius: 10px;
+    }
+
+    .card6:hover {
+        background-color: rgb(37, 43, 37);
+        cursor: pointer;
+    }
+
+    .card6 h3 {
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .box6 {
+        color: rgb(149, 148, 148);
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    .card7 {
+        color: rgb(233, 226, 226);
+        font-size: 10px;
+        background-color: rgb(25, 34, 25);
+        margin-top: 2%;
+        margin-left: -15%;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        padding-right: 161px;
+        width: 152px;
+        height: 5.5vh;
+        border: 4px solid rgb(25, 34, 25);
+        border-radius: 10px;
+    }
+
+    .card7:hover {
+        background-color: rgb(37, 43, 37);
+        cursor: pointer;
+    }
+
+    .card7 h3 {
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .box7 {
+        color: rgb(149, 148, 148);
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+    .card8 {
+        color: rgb(233, 226, 226);
+        font-size: 10px;
+        background-color: rgb(25, 34, 25);
+        margin-top: 2%;
+        margin-left: -15%;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-bottom: 19px;
+        padding-right: 161px;
+        width: 152px;
+        height: 5.5vh;
+        border: 4px solid rgb(25, 34, 25);
+        border-radius: 10px;
+    }
+
+    .card8:hover {
+        background-color: rgb(37, 43, 37);
+        cursor: pointer;
+    }
+
+    .card8 h3 {
+        margin-top: 5px;
+        font-family: sans-serif;
+    }
+
+    .box8 {
+        color: rgb(149, 148, 148);
+        margin-top: 8px;
+        font-size: 10px;
+    }
+
+
+
+    /* ************************************Page-4**************************************** */
+    .page4 {
+        display: flex;
+    }
+
+    .page4 img {
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 330px;
+        height: 37vh;
+    }
+
+    .alltextpg4 {
+        float: right;
+        margin-right: 1%;
+        color: rgb(217, 214, 214);
+    }
+
+    .pg4head {
+        margin-left: 15px;
+        margin-top: 37px;
+        font-size: 22px;
+        font-family: 'Lora', serif;
+    }
+
+
+    /* first line */
+    .fisrt {
+        display: inline-flex;
+    }
+
+    .small-head1 {
+        margin-left: 20px;
+        margin-top: 23px;
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+
+    .firstpg {
+        margin-top: 2px;
+        margin-left: 20px;
+        font-size: 11px;
+        width: 300px;
+        font-family: sans-serif;
+    }
+
+    .penimg {
+        padding-top: 35px;
+        padding-left: 15px;
+        max-width: 13px;
+        max-height: 2vh;
+    }
+
+
+    /* second line */
+    .second {
+        display: flex;
+    }
+
+    .small-head2 {
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+
+    .secondpg {
+        margin-top: 2px;
+        margin-left: 20px;
+        font-size: 11px;
+        width: 340px;
+        font-family: sans-serif;
+    }
+
+    .pinimg {
+        padding-top: 25px;
+        padding-left: 15px;
+        max-width: 13px;
+        max-height: 2vh;
+    }
+
+
+    /* third line */
+    .third {
+        display: flex;
+    }
+
+    .small-head3 {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 320px;
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+
+    .thirdpg {
+        margin-top: 2px;
+        margin-left: 20px;
+        width: 300px;
+        font-size: 11px;
+        font-family: sans-serif;
+    }
+
+    .slogoimg {
+        padding-top: 25px;
+        padding-left: 15px;
+        max-width: 13px;
+        max-height: 2vh;
+    }
+
+    .btn-sign-desc {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .signup-btn {
+        font-family: sans-serif;
+        color: white;
+        font-size: 10px;
+        background-color: rgb(14, 130, 14);
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: 12%;
+        border: 0px solid rgb(27, 29, 29);
+        border-radius: 20px;
+    }
+
+    .signup-btn:hover {
+        background-color: rgb(42, 138, 42);
+        cursor: pointer;
+    }
+
+    .description {
+        font-family: sans-serif;
+        color: rgb(85, 233, 85);
+        font-size: 12px;
+        background-color: rgb(27, 29, 29);
+        margin-left: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: 3px solid rgb(31, 182, 31);
+        border-radius: 20px;
+    }
+
+    .description:hover {
+        background-color: rgb(45, 46, 46);
+        cursor: pointer;
+    }
+
+
+
+    /* ************************************Page-5**************************************** */
+    .container5 {
+        margin-top: 5%;
+    }
+
+    .page5-sideimg {
+        float: right;
+        margin-right: 3%;
+        width: 275px;
+        height: 45vh;
+    }
+
+    .page5 {
+        background-color: rgba(13, 67, 55, 0.843);
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 25%;
+        height: 44.8vh;
+        border-radius: 10px;
+    }
+
+    .firstheading {
+        color: rgb(214, 214, 214);
+        font-size: 17px;
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+
+    .secondheading {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 1px;
+    }
+
+    .shfirstdiv {
+        color: white;
+        margin-left: 20px;
+    }
+
+    .shseconddiv {
+        color: rgb(71, 221, 171);
+        margin-left: 20px;
+    }
+
+    .textofpg5 {
+        color: white;
+        margin-top: 12px;
+        font-size: 12px;
+        font-family: 'Lora', serif;
+        margin-left: 21px;
+    }
+
+
+    /* icon1 */
+    .icon1-div {
+        margin-top: 4px;
+        display: flex;
+        margin-left: 21px;
+    }
+
+    .icon1-img {
+        margin-top: 11px;
+        margin-left: 2px;
+    }
+
+    .icon1-text {
+        margin-top: 10px;
+        color: white;
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+
+    /* icon2 */
+    .icon2-div {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .icon2-img {
+        margin-left: -8px;
+        margin-top: 11px;
+    }
+
+    .icon2-text {
+        color: white;
+        font-size: 12px;
+        margin-left: 15px;
+        margin-top: 11px;
+    }
+
+
+    /* icon3 */
+    .icon3-div {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .icon3-img {
+        margin-left: -8px;
+        margin-top: 11px;
+    }
+
+    .icon3-text {
+        color: white;
+        font-size: 12px;
+        margin-left: 15px;
+        margin-top: 11px;
+    }
+
+    .learnmore {
+        margin-left: 4%;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgb(27, 29, 29);
+        color: rgba(51, 158, 135, 0.843);
+        font-size: 12px;
+        font-family: sans-serif;
+        border-radius: 30px;
+        border: 0px solid rgb(27, 29, 29);
+    }
+
+    .learnmore:hover {
+        background-color: rgb(34, 38, 38);
+        cursor: pointer;
+    }
+
+
+
+
+
+    /* ************************************Page-6**************************************** */
+    .for-clients {
+        background-image: url(./images/page6.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 92%;
+        height: 40vh;
+        margin-left: 5%;
+        margin-top: 3%;
+        /* border: 3px solid grey; */
+        border-radius: 12px;
+    }
+
+    .pagesixtext {
+        position: static;
+        margin-left: 3%;
+    }
+
+    .page6-ftext {
+        color: white;
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: lighter;
+        padding-top: 15px;
+    }
+
+    .page6stext {
+        color: white;
+        margin-top: 18px;
+        font-size: 20px;
+        font-family: 'Lora', serif;
+    }
+
+    .para-6 {
+        color: rgb(253, 251, 251);
+        margin-top: 2%;
+        font-size: 12px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: lighter;
+    }
+
+    /* boxes */
+    .threeboxes {
+        display: inline-flex;
+        height: 17vh;
+    }
+
+    .onebox {
+        background-color: rgb(4, 96, 4);
+        color: white;
+        padding-left: 2px;
+        padding-right: 1px;
+        padding-top: 2px;
+        margin-top: 25px;
+        border: 0px solid rgb(12, 13, 12);
+        border-radius: 2px;
+        width: 180px;
+    }
+
+    .onebox:hover {
+        background-color: rgb(41, 43, 43);
+        color: green;
+        cursor: pointer;
+    }
+
+    .oneboxhead {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        width: 120px;
+    }
+
+    .oneboxtext {
+        font-size: 12px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: lighter;
+        margin-top: 10px;
+        width: 220px;
+        padding-left: 10px;
+    }
+
+    .twobox {
+        background-color: rgb(4, 96, 4);
+        color: white;
+        padding-left: 2px;
+        padding-right: 1px;
+        padding-top: 2px;
+        margin-top: 25px;
+        border: 0px solid rgb(12, 13, 12);
+        border-radius: 2px;
+        width: 180px;
+    }
+
+    .twobox:hover {
+        background-color: rgb(41, 43, 43);
+        color: green;
+        cursor: pointer;
+    }
+
+    .twoboxhead {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        width: 120px;
+    }
+
+    .twoboxtext {
+        font-size: 12px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: lighter;
+        margin-top: 10px;
+        width: 220px;
+        padding-left: 10px;
+    }
+
+
+    .threebox {
+        background-color: rgb(4, 96, 4);
+        color: white;
+        padding-left: 2px;
+        padding-right: 1px;
+        padding-top: 2px;
+        margin-top: 25px;
+        border: 0px solid rgb(12, 13, 12);
+        border-radius: 2px;
+        width: 180px;
+    }
+
+    .threebox:hover {
+        background-color: rgb(41, 43, 43);
+        color: green;
+        cursor: pointer;
+    }
+
+    .threeboxhead {
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        width: 130px;
+    }
+
+    .threeboxtext {
+        font-size: 12px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: lighter;
+        margin-top: 10px;
+        width: 230px;
+        padding-left: 10px;
+    }
+
+
+
+    /* ************************************Page-7**************************************** */
+    .container7 {
+        margin-left: 4.5%;
+        margin-top: 2%;
+    }
+
+    .page7 {
+        width: 97%;
+        height: 53vh;
+        border-radius: 9px;
+    }
+
+
+
+    /* ************************************Page-8**************************************** */
+    .container8 {
+        margin-left: 5%;
+        margin-top: 2%;
+        border-radius: 10px;
+        margin-right: 1%;
+    }
+
+    .fullpage8 {
+        display: flex;
+    }
+
+    .page8img {
+        width: 44%;
+        height: 45vh;
+    }
+
+    .page8text {
+        background-color: rgb(53, 57, 198);
+        height: 36.5vh;
+        padding-top: 12px;
+        /* padding-bottom: 7%; */
+        padding-left: 22px;
+        margin-top: 2px;
+        /* border: 3px solid black; */
+    }
+
+    .page8headOne {
+        color: rgb(226, 226, 226);
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    .page8headTwo {
+        color: rgb(226, 226, 226);
+        font-family: 'Lora', serif;
+        margin-top: 7px;
+        font-size: 32px;
+    }
+
+    .page8para {
+        color: rgb(226, 226, 226);
+        font-family: sans-serif;
+        margin-top: 6px;
+        font-size: 12px;
+    }
+
+    .findopportunities {
+        display: flex;
+        color: rgb(226, 226, 226);
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    .mediahr {
+        margin-top: -70px;
+    }
+
+    .no1 {
+        width: 120px;
+    }
+
+    .no2 {
+        width: 120px;
+    }
+
+    .no3 {
+        width: 105px;
+        margin-left: 5px;
+    }
+
+    .findopportunities-btn {
+        margin-top: 15px;
+        color: rgb(56, 161, 218);
+        background-color: rgb(27, 29, 29);
+        border: 0px solid rgb(12, 13, 12);
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-right: 10px;
+        padding-bottom: 6px;
+        font-size: 12px;
+    }
+
+    .findopportunities-btn:hover {
+        background-color: rgb(41, 41, 41);
+        cursor: pointer;
+    }
+
+
+
+    /* ************************************Page-9**************************************** */
+    .page9img {
+        width: 92%;
+        height: 48vh;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+
+
+
+    /* ************************************Page-10**************************************** */
+    .container10 {
+        margin-left: 5%;
+        background-color: rgb(25, 34, 25);
+        width: 92%;
+        margin-top: 4%;
+        height: 18.5vh;
+        border-radius: 25px;
+    }
+
+    .page10img {
+        float: right;
+        margin-top: 17px;
+        margin-right: 25px;
+        width: 100px;
+    }
+
+    .page10head {
+        color: rgb(219, 216, 216);
+        padding-top: 25px;
+        padding-left: 27px;
+        font-size: 20px;
+        font-family: 'Lora', serif;
+    }
+
+    .page10para {
+        color: grey;
+        padding-left: 27px;
+        font-family: sans-serif;
+        font-size: 11px;
+        padding-top: 15px;
+    }
+
+    .Learnmorebtn {
+        font-family: sans-serif;
+        color: rgb(85, 233, 85);
+        font-size: 12px;
+        background-color: rgb(41, 42, 42);
+        margin-left: 28px;
+        margin-top: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: 2px solid rgb(31, 182, 31);
+        border-radius: 20px;
+    }
+
+    .Learnmorebtn:hover {
+        background-color: rgb(25, 34, 25);
+        cursor: pointer;
+    }
+
+
+
+
+    /* ************************************footer second last**************************************** */
+    .footer-sl {
+        display: flex;
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+
+    .row1 {
+        color: white;
+        font-size: 25px;
+        font-family: sans-serif;
+        margin-top: 12px;
+    }
+
+    .firstrowofthesl li {
+        list-style-type: none;
+        padding-top: 8px;
+    }
+
+    .firstrowofthesl li:hover {
+        color: green;
+        cursor: pointer;
+    }
+
+    .anotherrows {
+        color: rgb(112, 110, 110);
+        font-size: 12px;
+        font-family: sans-serif;
+        margin-left: 2%;
+        margin-top: 10px;
+    }
+
+    .footer-sl-data td:hover {
+        color: green;
+        cursor: pointer;
+    }
+
+    .tdata {
+        padding-top: 10px;
+        padding-left: 87px;
+    }
+
+
+
+
+    /* ************************************last footer**************************************** */
+    .footer {
+        background-color: rgb(5, 24, 5);
+        margin-top: 5%;
+        margin-left: 4%;
+        width: 92%;
+        height: 55vh;
+        color: white;
+    }
+
+    .lastfooter {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .lastfootertable {
+        padding-top: 8%;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    /* .thead {
+
+} */
+
+    .lastfooter-tdata {
+        padding-top: 7px;
+        padding-left: 20px;
+        font-family: sans-serif;
+    }
+
+    .lastfooter-tdata:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .links {
+        display: flex;
+        margin-top: 10%;
+    }
+
+    .FollowUs {
+        margin-left: 26px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .FollowUs i {
+        font-size: 11px;
+    }
+
+    .FollowUs i:hover {
+        color: grey;
+    }
+
+    .Mobileapp {
+        margin-left: 43%;
+        color: white;
+        margin-bottom: 7px;
+    }
+
+    .Mobileapp i {
+        font-size: 11px;
+    }
+
+    .Mobileapp i:hover {
+        color: grey;
+    }
+
+    .footer-list {
+        display: flex;
+        margin-top: 8px;
+    }
+
+    .listoffooter {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        margin-left: 12px;
+    }
+
+    .listoffooter:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .lastlist {
+        margin-left: 17px;
+        margin-top: -6px;
+    }
+
+    .footerpara {
+        margin-left: 24px;
+        font-size: 10px;
+    }
+
+}
